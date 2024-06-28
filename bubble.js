@@ -17,7 +17,7 @@ class Paricle{
         this.radius = Math.random()*50
         this.dx = Math.random()*3
         this.dy = Math.random()*7
-        this.hue = 200;
+        this.hue = 100;
     }
 
     draw(){
@@ -36,7 +36,7 @@ class Paricle{
             this.radius
         )
         gradient.addColorStop(0.3,"rgba(255,255,255,0.3)")
-        gradient.addColorStop(0.95,"#e7feff")
+        gradient.addColorStop(0.95,"red")
 
         context.fillStyle = gradient
         context.fill()
